@@ -1,0 +1,72 @@
+/* Basic Reset */
+body, h1, h2, h3, p, ul, ol, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Overall Background */
+body {
+    background-color: #f0f0f0; /* Light background */
+    font-family: 'Courier New', Courier, monospace; /* Monospaced font */
+    color: #333; /* Darker text for contrast */
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Terminal Window Styling */
+.terminal {
+    max-width: 900px; /* Adjust as per your preference */
+    margin: auto; /* Center the terminal window */
+    background-color: #fff; /* White background for the terminal */
+    border: 1px solid #ccc; /* Border for terminal */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Subtle shadow */
+}
+
+/* Terminal Header */
+.terminal-header {
+    background-color: #eee; /* Light grey for the header */
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Terminal Title */
+.terminal-header .title {
+    color: #333;
+    font-weight: bold;
+}
+
+/* Category Section */
+.category {
+    padding: 20px;
+}
+
+.category h2 {
+    color: #007bff; /* Blue for headings */
+    margin-bottom: 15px;
+}
+
+/* Styling for paragraphs and lists inside categories */
+.category p, .category ul {
+    margin-bottom: 15px;
+}
+
+/* Links Styling */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .terminal {
+        margin: 0 10px;
+    }
+}

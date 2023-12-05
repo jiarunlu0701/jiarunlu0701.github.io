@@ -380,6 +380,30 @@ article .icon {
   border-color: rgb(163, 163, 163);
 }
 
+/* RESUME SECTION */
+#resume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  width: 100%; /* Full width */
+  margin: 0;
+  padding: 0;
+}
+
+.resume-container {
+  width: 100%;
+  height: 100%;
+  box-shadow: none;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  border: none; /* Removes the border */
+  overflow: hidden; /* Hides any scrollbars */
+}
+
 /* CONTACT */
 
 #contact {

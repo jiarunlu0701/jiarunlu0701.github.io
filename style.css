@@ -288,9 +288,9 @@ section {
 }
 
 .arrow {
-  position: absolute;
-  right: -5rem;
-  bottom: 2.5rem;
+    position: absolute;
+    left: 50%; /* Center relative to the nearest positioned ancestor */
+    transform: translateX(-50%); /* Shift it back by half its own width */
 }
 
 .details-container {

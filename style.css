@@ -454,3 +454,73 @@ footer {
 footer p {
   text-align: center;
 }
+
+#personal-projects-certifications .title {
+  font-size: 2.5em;
+  margin-bottom: 50px; /* Increase this value to create more space below the title */
+  text-align: center;
+}
+
+#personal-projects-certifications .github-source-container p,
+#personal-projects-certifications .certifications-container p {
+  font-size: 1.8em;
+  margin-bottom: 40px; /* Increase this value to create more space below the headers */
+  text-align: center;
+}
+#personal-projects-certifications .container {
+  text-align: center;
+  max-width: 100%; /* Use 100% to utilize the full width of the parent container */
+  margin: auto;
+  padding: 40px;
+}
+
+#personal-projects-certifications .content-container {
+  display: flex;
+  justify-content: space-evenly; /* Keep this for even spacing */
+  align-items: start;
+}
+
+#personal-projects-certifications .github-source-container,
+#personal-projects-certifications .certifications-container {
+  flex-basis: auto; /* Use auto or a specific percentage value that suits your layout */
+  margin: 20px; /* Adjust margin to a reasonable value */
+  padding: 50px
+  max-width: none; /* Remove the max-width constraint or set it to a larger value */
+}
+
+#personal-projects-certifications .certifications-container,
+ul {
+  list-style: none;
+  padding: 0; /* Adjust as needed */
+}
+
+#personal-projects-certifications .certifications-container li {
+  margin-bottom: 30px; /* Increased bottom margin for list items */
+  padding: 10px 0; /* Optional: Adds padding above and below each list item */
+}
+
+#personal-projects-certifications .certifications-container a {
+  font-size: 1.8em;
+  display: block;
+  margin-bottom: 15px; /* Increased bottom margin */
+  padding: 5px 0; /* Optional: Adds padding above and below each link */
+  text-decoration: none; /* Optional: Removes underline from links */
+}
+
+#personal-projects-certifications .github-source-container ul {
+  list-style: none;
+  padding: 0; /* Adjust as needed */
+}
+
+#personal-projects-certifications .github-source-container li {
+  margin-bottom: 30px; /* Increased bottom margin for list items */
+  padding: 10px 0; /* Optional: Adds padding above and below each list item */
+}
+
+#personal-projects-certifications .github-source-container a {
+  font-size: 1.8em;
+  display: block;
+  margin-bottom: 15px; /* Increased bottom margin */
+  padding: 5px 0; /* Optional: Adds padding above and below each link */
+  text-decoration: none; /* Optional: Removes underline from links */
+}
